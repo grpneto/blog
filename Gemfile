@@ -56,8 +56,6 @@ group :development do
   gem "web-console"
 end
 
-gem 'pg'
-
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
@@ -66,3 +64,4 @@ end
 
 gem "devise"
 gem "ransack", "~> 4.3"
+gem 'pg'
